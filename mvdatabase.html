@@ -1,0 +1,327 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Movie DataBase</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">MOVIE</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Home</li>
+                    <a href="#top-rateded"><li class="menu-list-item"><button style="background-color: rgb(0, 0, 0);color: rgb(226, 252, 82);"><b>MOVIES</b></button></li></a>
+                    <a href="#new-releases"><li class="menu-list-item"><button style="background-color: rgb(0, 0, 0);color: rgb(226, 252, 82);"><b>SERIES</b> </button></li></a>
+                    <a href="#comedy"><li class="menu-list-item"><button style="background-color: rgb(0, 0, 0);color: rgb(226, 252, 82);"><b>POPULAR</b></button></li></a>
+                    <a href="#horror"><li class="menu-list-item"><button style="background-color: rgb(0, 0, 0);color: rgb(226, 252, 82);"><b>TRENDS</b></button></li></a>
+
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="PHOTO1.jpg" alt="profile logo">
+                <div class="profile-text-container">
+                    <span class="profile-text">profile</span>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fas fa-search"></i>
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-users"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+        <i class="left-menu-icon fas fa-tv"></i>
+        <i class="left-menu-icon fas fa-hourglass-start"></i>
+        
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg');">
+                <img class="featured-title" src="./download1.jpeg" alt="Jailer">
+                <p class="featured-desc"><b><strong>Jailer is a 2023 Indian Tamil-language action comedy film directed by 
+                    Nelson Dilipkumar and produced by Kalanithi Maran of Sun Pictures. The film stars Rajinikanth in the
+                     lead role, alongside Vinayakan, Ramya Krishnan, Vasanth Ravi, Tamannaah, Sunil, Mirnaa Menon and Yogi 
+                     Babu in supporting roles</b></strong></p>
+                <a href="jailer.html" ><button class="bn5" >WATCH</button></a>
+            </div>
+            <div class="movie-list-container" id="top-rateded">
+                <h1 class="movie-list-title" >TOP RATEDED</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="./download 2.jpeg" alt="MS Dhoni-the untold story">
+                            <span class="movie-list-item-title">MS Dhoni-The Untold Story</span>
+                            <p class="movie-list-item-desc">M.S. Dhoni: The Untold Story is a 2016 Indian Hindi-language biographical 
+                                sports drama film written and directed by Neeraj Pandey</p>
+                            <a  href="ms dhoni.html" ><button class="movie-list-item-button"><b>Watch</b></button>
+                                </a>
+                            
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="./download3.jpeg" alt="Spider Man-no way home">
+                            <span class="movie-list-item-title">Spider Man-No Way Home</span>
+                            <p class="movie-list-item-desc">Spider-Man: No Way Home is a 2021 American superhero film based on 
+                                the Marvel Comics character Spider-Man, co-produced by Columbia Pictures and Marvel Studios</p>
+                            <a href="spidrer man.html"><button class="movie-list-item-button"><b>Watch</b></button></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="./download 4.jpeg" alt="Shang-Chi">
+                            <span class="movie-list-item-title">Shang-Chi</span>
+                            <p class="movie-list-item-desc">Shang-Chi and the Legend of the Ten Rings is a 2021 American superhero film based on Marvel Comics.</p>
+                            <a href="shang-chi.html"><button class="movie-list-item-button"><b>Watch</b></button></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="./download 5.jpeg" alt="Gurdians of the Galaxy(vol3)">
+                            <span class="movie-list-item-title">Gurdians of the Galaxy(vol3)</span>
+                            <p class="movie-list-item-desc">Guardians of the Galaxy Vol. 3 (stylized in marketing as Guardians of the Galaxy Volume 3) is a 2023 American 
+                                superhero film.</p>
+                            <a href="gaurdians of the galaxy.html"><button class="movie-list-item-button"><b>Watch</b></button></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="./download 6.jpeg" alt="Exraction-2">
+                            <span class="movie-list-item-title">Exraction-2</span>
+                            <p class="movie-list-item-desc">Extraction 2 is a 2023 American action thriller film directed by Sam Hargrave and written by Joe Russo.</p>
+                            <a href="extraction.html"><button  class="movie-list-item-button"><b>Watch</b></button></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="./download 7.jpeg" alt="Shazam">
+                            <span class="movie-list-item-title">Shazam</span>
+                            <p class="movie-list-item-desc">Shazam! Fury of the Gods is a 2023 American superhero film based on the DC character Shazam.</p>
+                            <a href="shazam.html"><button class="movie-list-item-button"><b>Watch</b></button></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="./download 8.jpeg" alt="Fast-x">
+                            <span class="movie-list-item-title">Fast-x</span>
+                            <p class="movie-list-item-desc">Fast X (also known as Fast & Furious 10) is a 2023 American action film directed by Louis Leterrier
+                                 from a screenplay written by Dan Mazeau.</p>
+                            <a href="fast x.html"><button class="movie-list-item-button"><b>Watch</b></button></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="./download3.jpeg" alt="Spider Man-no way home">
+                            <span class="movie-list-item-title">Spider Man-No Way Home</span>
+                            <p class="movie-list-item-desc">Spider-Man: No Way Home is a 2021 American superhero film based on 
+                                the Marvel Comics character Spider-Man, co-produced by Columbia Pictures and Marvel Studios</p>
+                            <a class="movie-list-item-button" href="spidrer man.html"><b>Watch</b></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="./download3.jpeg" alt="Spider Man-no way home">
+                            <span class="movie-list-item-title">Spider Man-No Way Home</span>
+                            <p class="movie-list-item-desc">Spider-Man: No Way Home is a 2021 American superhero film based on 
+                                the Marvel Comics character Spider-Man, co-produced by Columbia Pictures and Marvel Studios</p>
+                            <a class="movie-list-item-button" href="spidrer man.html"><b>Watch</b></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="./download3.jpeg" alt="Spider Man-no way home">
+                            <span class="movie-list-item-title">Spider Man-No Way Home</span>
+                            <p class="movie-list-item-desc">Spider-Man: No Way Home is a 2021 American superhero film based on 
+                                the Marvel Comics character Spider-Man, co-produced by Columbia Pictures and Marvel Studios</p>
+                            <a class="movie-list-item-button" href="spidrer man.html"><b>Watch</b></a>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container" id="new-releases">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="./bichagadu.jpg" alt="">
+                            <span class="movie-list-item-title" >BICHAGADU 2</span>
+                            <p class="movie-list-item-desc">Bichagadu 2 also known as Pichaikkaran 2: Anti Bikili is a 
+                                2023 Indian Tamil-language science fiction action film written and directed by Vijay Antony </p>
+                            <a  href="bichagadu 2.html"><button class="movie-list-item-button"><b>Watch</b></button></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="kushi.jpeg" alt="">
+                            <span class="movie-list-item-title">KHUSI</span>
+                            <p class="movie-list-item-desc">Kushi (transl. Happiness) is a 2023 Indian Telugu-language romantic comedy 
+                                film written and directed by Shiva Nirvana.</p>
+                            <a  href="kushi.html"><button class="movie-list-item-button"><b>Watch</b></button></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="bedurulanka.jpg" alt="">
+                            <span class="movie-list-item-title">BEDURULANKA</span>
+                            <p class="movie-list-item-desc">Bedurulanka 2012 is an 2023 Indian Telugu-language 
+                                comedy-drama film directed by Clax</p>
+                            <a  href="bedurulanka.html"><button class="movie-list-item-button"><b>Watch</b></button></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="BRO3.jpg" alt="">
+                            <span class="movie-list-item-title">BRO</span>
+                            <p class="movie-list-item-desc">Bro (stylized as BRO) (meaning: Brother) is a 2023 Indian Telugu-language supernatural 
+                                fantasy comedy film directed by Samuthirakani</p>
+                            <a  href="bro.html"><button class="movie-list-item-button"><b>Watch</b></button></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="Nayakudu-m.jpg" alt="">
+                            <span class="movie-list-item-title">NAYAKUDU</span>
+                            <p class="movie-list-item-desc"></p>
+                            <a  href="nayakudu.html"><button class="movie-list-item-button"><b>Watch</b></button></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="baby movie.jpg" alt="">
+                            <span class="movie-list-item-title">BABY</span>
+                            <p class="movie-list-item-desc">Baby is a 2023 Indian Telugu-language coming of age 
+                                romantic drama film directed by Sai Rajesh Neelam</p>
+                            <a  href="baby.html"><button class="movie-list-item-button"><b>Watch</b></button></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-2.jpg');">
+                <img class="featured-title" src="download1.jpeg" alt="JAILER">
+                <p class="featured-desc"><b><strong>Jailer is a 2023 Indian Tamil-language action comedy film directed by 
+                    Nelson Dilipkumar and produced by Kalanithi Maran of Sun Pictures. The film stars Rajinikanth in the
+                     lead role, alongside Vinayakan, Ramya Krishnan, Vasanth Ravi, Tamannaah, Sunil, Mirnaa Menon and Yogi 
+                     Babu in supporting roles</strong></b></p>
+                <a href="jailer.html"><button class="bn5">WATCH</button></a>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title" id="comedy">COMEDY MOVIES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="bedurulanka.jpg" alt="">
+                            <span class="movie-list-item-title">BEDURULANKA</span>
+                            <p class="movie-list-item-desc">Bedurulanka 2012 is an 2023 Indian Telugu-language 
+                                comedy-drama film directed by Clax</p>
+                            <a class="movie-list-item-button" href="bedurulanka.html"><b>Watch</b></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="jathi-ratnalu.avif" alt="">
+                            <span class="movie-list-item-title">JATHI RATNALU</span>
+                            <p class="movie-list-item-desc">Jathi Ratnalu (transl. Jewels of the nation)[5] is a 2021 Indian Telugu-language 
+                                comedy drama film written and directed by Anudeep K. V..</p>
+                            <a class="movie-list-item-button" href=""><b>Watch</b></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="./F 3.jpg" alt="">
+                            <span class="movie-list-item-title">F-3</span>
+                            <p class="movie-list-item-desc">F3: Fun and Frustration is a 2022 Indian Telugu-language comedy film
+                                 written and directed by Anil Ravipudi and produced by Dil Raju </p>
+                            <a class="movie-list-item-button" href=""><b>Watch</b></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="DON.jpg" alt="">
+                            <span class="movie-list-item-title">DON</span>
+                            <p class="movie-list-item-desc">Don is a 2022 Indian Tamil-language coming-of-age comedy drama film written and 
+                                directed by Cibi Chakaravarthi, in his directorial debut.</p>
+                            <a class="movie-list-item-button" href="baby.html"><b>Watch</b></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="SAKINI Dakini.cms" alt="">
+                            <span class="movie-list-item-title">SAKINI DAKINI</span>
+                            <p class="movie-list-item-desc">Saakini Daakini is a 2022 Indian Telugu-language action comedy film[2] 
+                                directed by Sudheer Varma and produced by Suresh Productions</p>
+                            <a class="movie-list-item-button" href=""><b>Watch</b></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="MEMU FAMOUS.avif" alt="">
+                            <span class="movie-list-item-title">MEM FAMOUS</span>
+                            <p class="movie-list-item-desc">Mem Famous is a 2023 Indian Telugu-language romantic action
+                                 drama film[2] written and directed by Sumanth Prabhas</p>
+                            <a class="movie-list-item-button" href=""><b>Watch</b></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title" id="horror">HORROR MOVIES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="Prema-Katha-Chitram.webp" alt="">
+                            <span class="movie-list-item-title">PREMA KATHA CHITRAM</span>
+                            <p class="movie-list-item-desc">Prema Katha Chitram (transl. A Love Story Picture) is a 2013 Telugu-language
+                                 horror comedy film produced by Maruthi and Sudarshan Reddy</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="KANCHANA 3.webp" alt="">
+                            <span class="movie-list-item-title">KANCHANA 3</span>
+                            <p class="movie-list-item-desc">Kanchana 3 is a 2019 Indian Tamil language action-comedy 
+                                horror film[2] co-produced, written and directed by Raghava Lawrence</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="PISACHI.webp" alt="">
+                            <span class="movie-list-item-title">PISACHI</span>
+                            <p class="movie-list-item-desc">Pisaasu is a 2014 Indian 
+                                Tamil-language horror drama film written and directed by Mysskin</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="PREMA KATHA CHITRAM 2.jpeg" alt="">
+                            <span class="movie-list-item-title">PREMA KATHA CHITRAM 2</span>
+                            <p class="movie-list-item-desc">Prema Katha Chitra 2 is a 2019 Telugu-language horror comedy film written
+                                 and directed by Hari Kishan and produced by R. Sudarshan Reddy</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="MAYURI.jpg" alt="">
+                            <span class="movie-list-item-title">MAYURI</span>
+                            <p class="movie-list-item-desc">Maya is a 2015 Indian Tamil-language 
+                                neo-noir horror film written and directed by Ashwin Saravanan</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="MASHOODA.webp" alt="">
+                            <span class="movie-list-item-title">MASUDHA</span>
+                            <p class="movie-list-item-desc"></p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="AVUNU.webp" alt="">
+                            <span class="movie-list-item-title">AVUNU</span>
+                            <p class="movie-list-item-desc">Avunu is a 2012 Telugu-language horror thriller film written, 
+                                produced and directed by Ravi Babu </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                    <!-- <i class="fas fa-chevron-left arrow"></i> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+
+</html>

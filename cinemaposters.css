@@ -1,0 +1,13 @@
+.movie-container{
+    width:20px;
+    height:30px;
+    background-color: aqua;    
+
+}
+.img-container{
+    transition: all 1s ease-in-out;
+    width: 320px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
